@@ -1,0 +1,22 @@
+
+//Note may not work anymore if your a retard and dont know how to update 10 year old code
+//Credits to https://stackoverflow.com/questions/10556829/sending-and-receiving-udp-packets
+
+
+import java.io.IOException;
+import java.net.*;
+
+public class JavaApplication9 {    
+    public static void main(String[] args) throws UnknownHostException, SocketException, IOException  {
+        // TODO code application logic here
+        byte[] buffer = {10,23,12,31,43,32,24};
+        byte [] IP = {-64,-88,1,106};
+        InetAddress address = InetAddress.getByAddress(IP);
+        DatagramPacket packet = new DatagramPacket(
+                buffer, buffer.length, address, 57
+                );
+        DatagramSocket datagramSocket = new DatagramSocket();
+        datagramSocket.send(packet);
+        System.out.println(InetAddress.getLocalHost().getHostAddress());
+    }
+}
