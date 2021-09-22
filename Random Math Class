@@ -1,0 +1,18 @@
+public class FreeMoneyHybMeth {
+    public static void main(String args[]) {
+      int z1=30;
+      int y1=70;
+      int ggs=y1+z1;
+
+      System.out.println(" we did some meth and found = " + ggs);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+}
