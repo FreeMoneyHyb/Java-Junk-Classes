@@ -1,0 +1,12 @@
+public class InfSpam {
+    public static void main(String args[]) {
+            
+            int i;
+            for (i = 0; i < 69420; i++)
+            System.out.println("we have skidded a small sample code");
+            System.out.println("Balls In yo jaws");
+            int kek39=34;
+            String Ballers = "kek";
+            while(kek39 < 39 );
+    }
+}
